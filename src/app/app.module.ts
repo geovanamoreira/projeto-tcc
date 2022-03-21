@@ -8,6 +8,7 @@ import { EncomendaComponent } from './encomenda/encomenda.component';
 import { MontagemComponent } from './montagem/montagem.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { HeaderComponent } from './header/header.component';
+import { SobreComponent } from './sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     EncomendaComponent,
     MontagemComponent,
     CadastroComponent,
-    HeaderComponent
+    HeaderComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
