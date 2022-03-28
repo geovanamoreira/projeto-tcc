@@ -9,6 +9,7 @@ import { MontagemComponent } from './montagem/montagem.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { HeaderComponent } from './header/header.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { BoloComponent } from './montagem/bolo/bolo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SobreComponent } from './sobre/sobre.component';
     MontagemComponent,
     CadastroComponent,
     HeaderComponent,
-    SobreComponent
+    SobreComponent,
+    BoloComponent
   ],
   imports: [
     BrowserModule,

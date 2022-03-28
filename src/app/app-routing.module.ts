@@ -5,13 +5,15 @@ import { MontagemComponent } from './montagem/montagem.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { EncomendaComponent } from './encomenda/encomenda.component';
 import { SobreComponent } from './sobre/sobre.component';
+import { BoloComponent } from './montagem/bolo/bolo.component';
 
 const routes: Routes = [
   {path:'', component: HomeComponent},
   {path:'montagem', component: MontagemComponent},
   {path:'cadastro', component: CadastroComponent},
   {path:'encomenda', component: EncomendaComponent},
-  {path:'sobre', component: SobreComponent}
+  {path:'sobre', component: SobreComponent},
+  {path:'bolo', component: BoloComponent}
 ];
 
 @NgModule({
