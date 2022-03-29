@@ -9,7 +9,11 @@ import { MontagemComponent } from './montagem/montagem.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
 import { HeaderComponent } from './header/header.component';
 import { SobreComponent } from './sobre/sobre.component';
-import { BoloComponent } from './montagem/bolo/bolo.component';
+import { BoloComponent } from './montagem/montagem2/bolo/bolo.component';
+import { CupcakeComponent } from './montagem/montagem2/cupcake/cupcake.component';
+import { BrownieComponent } from './montagem/montagem2/brownie/brownie.component';
+import { VeganoComponent } from './montagem/montagem2/vegano/vegano.component';
+import { Montagem2Component } from './montagem/montagem2/montagem2.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { BoloComponent } from './montagem/bolo/bolo.component';
     CadastroComponent,
     HeaderComponent,
     SobreComponent,
-    BoloComponent
+    BoloComponent,
+    CupcakeComponent,
+    BrownieComponent,
+    VeganoComponent,
+    Montagem2Component
   ],
   imports: [
     BrowserModule,
