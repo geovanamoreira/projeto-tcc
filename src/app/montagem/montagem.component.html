@@ -1,37 +1,30 @@
+<br>
+
 <div class="card card1">
   <div class="card-body">
-    <ul class="nav nav-tabs">
-
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page">Bolos</a>
+    <ul ngbNav #nav="ngbNav" class="nav-tabs">
+      <li ngbNavItem>
+        <a ngbNavLink color="danger">Bolo</a>
+        <ng-template ngbNavContent><app-bolo></app-bolo></ng-template>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page">Cupcakes</a>
+      <li ngbNavItem>
+        <a ngbNavLink>Cupcake</a>
+        <ng-template ngbNavContent><app-cupcake></app-cupcake></ng-template>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page">Brownie</a>
+      <li ngbNavItem>
+        <a ngbNavLink>Brownie</a>
+        <ng-template ngbNavContent><app-brownie></app-brownie></ng-template>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page">Veganos</a>
+      <li ngbNavItem>
+        <a ngbNavLink>Vegano</a>
+        <ng-template ngbNavContent><app-vegano></app-vegano></ng-template>
       </li>
     </ul>
+    <div [ngbNavOutlet]="nav"></div>
 
-    <div class="card card3">
-      <div class="card-body">
-        <app-montagem2></app-montagem2>
-      </div>
-    </div>
   </div>
 </div>
 
-<div class="card card2">
-  <div class="card-body">
-    <button type="button" class="btn btn-outline-primary botao" routerLink="/montagem/bolo">Bolo</button>
-    <button type="button" class="btn btn-outline-primary botao mt-3" routerLink="/montagem2/cupcake">Cupcakes</button>
-    <button type="button" class="btn btn-outline-primary botao mt-3" routerLink="">Brownies</button>
-    <button type="button" class="btn btn-outline-primary botao mt-3" routerLink="">Veganos</button>
-  </div>
-</div>

@@ -5,7 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './montagem.component.html',
   styleUrls: ['./montagem.component.css']
 })
+
 export class MontagemComponent implements OnInit {
+
+  public isCollapsed = false;
 
   constructor() { }
 
