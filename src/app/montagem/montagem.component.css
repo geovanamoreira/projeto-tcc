@@ -1,8 +1,19 @@
 .card1{
   margin-top: 70px;
-  height: 400px;
-  width: 900px;
+  height: 600px;
+  width: 800px;
   margin-left: 100px;
+}
+
+.card2{
+  margin-top: -200px;
+  margin-left: 1150px;
+  width: 300px;
+  height: 350px;
+}
+
+.card3{
+  margin-left: -15px;
 }
 
 

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images = [700, 533, 807, 124].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
-  constructor() { }
+  constructor(config: NgbCarouselConfig) {
+    config.interval = 5000;
+    config.wrap = false;
+    config.keyboard = false;
+    config.pauseOnHover = false;
+   }
 
   ngOnInit(): void {
   }
