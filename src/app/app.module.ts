@@ -14,6 +14,7 @@ import { CupcakeComponent } from './montagem/cupcake/cupcake.component';
 import { BrownieComponent } from './montagem/brownie/brownie.component';
 import { VeganoComponent } from './montagem/vegano/vegano.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarrinhoCComponent } from './carrinho-c/carrinho-c.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BoloComponent,
     CupcakeComponent,
     BrownieComponent,
-    VeganoComponent
+    VeganoComponent,
+    CarrinhoCComponent
   ],
 
   imports: [

@@ -1,0 +1,19 @@
+.centraliza1{
+  margin-left: 110px;
+  margin-top: -5px;
+}
+
+.centraliza2{
+  margin-left: 310px;
+  margin-top: -300px;
+}
+
+.detalhe{
+  max-height: 300px;
+  min-height: 300px;
+}
+
+img{
+  max-height: 200px;
+  min-height: 200px;
+}
